@@ -1,0 +1,27 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.token__logo {
+  height: 40px;
+}
+
+.payment__note {
+  margin-bottom: 0.5rem;
+}
+
+.payment__qrcode {
+  width: 75%;
+}
+
+.history_pic {
+  height: 75px;
+}
